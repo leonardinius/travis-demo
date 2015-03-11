@@ -7,4 +7,6 @@ after_success: |
   sudo pip install ghp-import &&
   ghp-import -n target/doc &&
   git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git gh-pages
-
+env:
+  global:
+    secure: HRLlQDrckZmwSufWiekRACToiXs46tYIg62QEhOnOIGVKH4eiWSJOzHJrpHZW4l4Xn4H4vZqgnJd8vhdgp20DGRJ7m2zcHq6ygSvcq6NAABfFb0gPl7IcjYNdErniZ6U0C8uVAShxOjT6tOnkC6KddL46PZ4WgfcLWgsmlPZs78=
