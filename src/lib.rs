@@ -1,3 +1,6 @@
+#![doc(html_root_url = "https://leonardinius.github.io/travis-demo/")]
+#![doc(html_logo_url = "https://raw.githubusercontent.com/leonardinius/travis-demo/master/demo.png")]
+
 #![crate_name = "travis-demo"]
 #![crate_type = "lib"]
 
